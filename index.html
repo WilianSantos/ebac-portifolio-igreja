@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação da Igreja</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand font-title fw-bold">Igreja</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a id="link-scrolled" href="#about" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a igreja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#community" class="nav-link">
+                            <i class="bi bi-people-fill me-1"></i>
+                            Comunidade
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact-us" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
+        <section id="about" class="col-12">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row pt-5 pb-5 content flex-md-column align-items-md-center flex-lg-row">
+                    <div class="col-md-8 ">
+                        <p class="text-colored">Lorem ipsum dolor sit amet consectetur.</p>
+                        <h1 class="font-title mt-5 mb-5">Igreja Batista</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae eius, veniam repudiandae ex ducimus incidunt. Ex itaque repudiandae soluta molestias sint sequi vero aliquam fuga ea perferendis, nemo nesciunt?</p>
+                    </div>
+                    <div class="col-md-4 text-center cult">
+                        <h2 class="font-title mt-3">Cultos aos <br><Span>Domingos as <br>19:30 hrs</Span> <br>e as <br><span>Quartas as <br>20:00 hrs</span></h2>
+                        <h2 class="font-title mt-3">Estudo as <br><span>Sextas as <br>19:00 hrs</span> <br>e no <br><span>Domingos as <br>18:00 hrs</span></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comunidade -->
+        <section id="community" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="font-title text-center mb-4">Comunidade</h2>
+                </div>
+                <div class="row community">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-community">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#our-community" class="font-title text-start nav-link active">Nossa Comunidade</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#our-causes" class="font-title text-start nav-link">Nossas Causas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#our-missionaries" class="font-title text-start nav-link">Nossos Missionarios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="our-community">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossa-comunidade/igreja_moderna.webp" alt="Foto criada por IA de uma igreja moderna" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Nossa Igreja</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossa-comunidade/igreja-por-dentro.webp" alt="Foto criada por IA de uma igreja moderna por dentro" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Nossa Igreja</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="our-causes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossa-causa/entrega-de-comida.jpg" alt="Foto de pessoas servindo comida" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Entrega de Cesta Basica</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossa-causa/evangelismo.jpg" alt="Foto de uma biblia segurado por uma pessoa" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Evangelismo</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="our-missionaries">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossos-missionarios/aline.jpg" alt="Foto da missionaria aline" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Aline</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/comunidade/nossos-missionarios/carlos.jpg" alt="Foto do missionario carlos" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Carlos</h5>
+                                        <p>Dolor nostrum id unde, veniam eius impedit, debitis obcaecati blanditiis molestias laborum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact-us" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="font-title text-center">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-colored">
+                                    Seu nome
+                                </label>
+                                <input type="text" id="name" name="name" class="form-control" required="required">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">
+                                    Seu e-mail
+                                </label>
+                                <input type="email" id="email" name="email" class="form-control" required="required">
+                            </div>
+                            <div class="mb-3">
+                                <label for="cell-phone" class="form-label fw-bold text-colored">Seu telefone (Opicional)</label>
+                                <input type="tel" id="cell-phone" name="cellPhone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold w-50">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 p-4 contact">
+                        <div class="row">
+                            <h3 class="font-title">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-1">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-1 ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-2">
+                            <h3 class="font-title">
+                                <i class="bi bi-cursor-fill"></i>    
+                                Endereço
+                            </h3>
+                            <p>Dolor nostrum id unde, veniam eius impedit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
